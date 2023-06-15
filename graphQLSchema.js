@@ -25,7 +25,7 @@ type Mutation {
 } `
 
 
-const db_url = 'mongodb+srv://riddhi2291:RiddhiArjav@cluster0.krngnb3.mongodb.net/products?ssl=true&authSource=admin';
+const db_url = 'mongodb+srv://<username>:<password>@cluster0.krngnb3.mongodb.net/products?ssl=true&authSource=admin';
 
 
 const connect = async () => {
